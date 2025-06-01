@@ -331,3 +331,45 @@ header {
     opacity: 0.5;
     cursor: pointer;
 }
+
+.nothing-inner{
+    margin-bottom: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nothing-inner div{
+    width: 546px;
+    height: 546px;
+    margin-right: 8px;
+    background-image: url(../images/noimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nothing-inner div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nothing-inner div p{
+    margin-bottom: 28px;
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: 400;
+    color: var(--black);
+    text-align: center;
+    width: 330px;
+}
+
+
+.nothing-inner img{
+    width: 546px;
+    height: 546px;
+}
